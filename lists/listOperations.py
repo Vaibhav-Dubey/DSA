@@ -21,3 +21,17 @@ print(max(e),min(e))
 
 ## sum function to find some of elements in the list 
 print(sum(e))
+
+## conversion of string to list 
+s= "vaibhav"
+f=list(s)
+print(f)
+
+t= 'my name is vaibhav'
+g=t.split()
+h=list(t)
+print(g,h) #will convert the string to list of words and not letters
+
+##convert list back to string
+print(' '.join(g))
+
