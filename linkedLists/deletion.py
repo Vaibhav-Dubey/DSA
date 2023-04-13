@@ -52,6 +52,12 @@ class SlinkedList:
                     index+=1
                 nextNode = tempNode.next
                 tempNode.next = nextNode.next
+    def deleteEntireSLL(self):
+        if self.head == None:
+            print("the ll doesnt exist")
+        else:
+            self.head = None
+            self.tail= None 
                 
             
 
