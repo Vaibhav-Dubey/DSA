@@ -25,4 +25,5 @@ class CircularSlinkedList:
 CircularSlinkedList = CircularSlinkedList()
 CircularSlinkedList.createCircularSlinkedlist(2)
 
+
 print([node.value for node in CircularSlinkedList])
