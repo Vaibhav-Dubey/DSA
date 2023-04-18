@@ -11,7 +11,7 @@ A personal repo to keep track of my learning of DSA in Python
 - find the number '4' in the array is the average case scenario, which is Big 'Θ'
 - find the number '6' is the worst case scenario which is Big O .
 
-[BIG O Graph](bigochart-min.jpg)
+![BIG O Graph](bigochart-min.jpg)
 
 - O(1): ANy given input the runtime will reamin constant 
 - O(n): Linear time complexity ; as input grows so do operations 
