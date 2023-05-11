@@ -42,6 +42,5 @@ class LinkedList:
             self.add(randint(minValue,maxValue))
         return self
 
-customLL = LinkedList()
-customLL.generate(10,0,99)
-print(customLL)
+# customLL = LinkedList()
+# customLL.generate(10,0,99)
