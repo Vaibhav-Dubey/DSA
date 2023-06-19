@@ -13,4 +13,5 @@ def runningSum(nums):
         runningSum.append(summ)
     return runningSum
 
-print(runningSum([1,2,3,5]))
+# print(runningSum([1,2,3,5]))
+
