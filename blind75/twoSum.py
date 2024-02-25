@@ -1,12 +1,10 @@
 def twoSum(nums, target):
-    complementMap = dict()
-    for i in range(len(nums)):
-        num = nums[i]
-        complement = target - num
-        if num in complementMap:
-            return[complementMap[num],i]
-        else:
-            complementMap[complement] = i
+    prevMap={}
+    for i , n in enumerate(nums):
+        if target-n in prevMap:
+           return [prevMap[target-n],i]
+        prevMap[n] = i
+    return  
 
 
 print(twoSum([3,2,4],6))
