@@ -4,7 +4,7 @@ def twoSum(nums, target):
         if target-n in prevMap:
            return [prevMap[target-n],i]
         prevMap[n] = i
-    return  
+return  
 
 
 print(twoSum([3,2,4],6))
